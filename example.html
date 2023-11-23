@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fesk: OTP_Input example</title>
+</head>
+<body>
+    <div id="otp_container_div"></div>
+    <script src="otp_input.min.js"></div>
+</body>
+<script type="text/javascript">
+
+    let tot=new OTP_Input();
+    tot.render(document.getElementById('otp_container_div'),['this','that']);
+    tot.instance.addEventListener('complete',function(e){
+        console.log(e.detail);
+    })
+
+//console.log(tot.set('123456');
+
+//console.log(tot.get())
+
+//tot.clear()
+
+//tot.completed()
+
+
+</script>
+</html>
