@@ -13,7 +13,12 @@ tot.instance.addEventListener('complete',function(e){
 })
 ```
 
-See code for documentation, or look at example.html for a functional example.
+See code for documentation, or look at example.html for a functional example;
+
+
+![image](https://github.com/fesk/OTP_Input/assets/6652072/9493f342-7d8e-4387-bc15-d1b3a3c4252c)
+
+
 
 No warranty or guarantee of any kind. All using plain old-fashioned javascript.
 
